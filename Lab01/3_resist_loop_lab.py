@@ -10,13 +10,13 @@ GPIO.setup(LED_PIN3, GPIO.OUT)
 
 try: 
     while True: 
-        print "LED is on"
+        print ("LED is on")
         GPIO.output(LED_PIN1, GPIO.HIGH)
         GPIO.output(LED_PIN2, GPIO.LOW)
         GPIO.output(LED_PIN3, GPIO.HIGH)
         time.sleep(1)
 
-        print "LED is off"
+        print ("LED is off")
         GPIO.output(LED_PIN1, GPIO.LOW)
         GPIO.output(LED_PIN2, GPIO.HIGH)
         GPIO.output(LED_PIN3, GPIO.LOW)
