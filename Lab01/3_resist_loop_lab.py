@@ -20,6 +20,7 @@ try:
         GPIO.output(LED_PIN1, GPIO.LOW)
         GPIO.output(LED_PIN2, GPIO.HIGH)
         GPIO.output(LED_PIN3, GPIO.LOW)
+        time.sleep(1)
  
 except KeyboardInterrupt:
     print "exception: KeyboardInterrupt"
