@@ -9,9 +9,9 @@ IO.setup(37, IO.IN)
 
 while 1: 
     if (IO.input(37)==True):
-        IO.output(13, True)
-        IO.output(15, False)
+        IO.output(12, True)
+        IO.output(16, False)
     if (IO.input(37)==False):
-        IO.output(13, False)
-        IO.output(15, True)
+        IO.output(12, False)
+        IO.output(16, True)
 IO.cleanup()
