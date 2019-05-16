@@ -1,7 +1,7 @@
 import RPi.GPIO as IO
 import time 
 IO.setwarnings(False)
-IO.setmode(IIO.BOARD)
+IO.setmode(IO.BOARD)
 
 IO.setup(12, IO.OUT)
 IO.setup(16, IO.OUT)
